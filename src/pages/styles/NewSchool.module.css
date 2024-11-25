@@ -1,0 +1,120 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gridForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.formItem {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.errorText {
+    color: red;
+    margin-top: 10px;
+    
+}
+
+.confirmationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.confirmationContainer p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.confirmationContainer h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.checkmarkIcon {
+    color: green;
+    font-size: 1.0em;
+}
+
+.mapContainer {
+    height: 300px;
+    width: 100%;
+}
+
+.geoControls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.geoInputContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.geoInput {
+    flex: 1;
+}
+
+.showMapButton {
+    white-space: nowrap;
+}
+
+.geoSwitch {
+    margin-top: 8px; 
+}
+
+.customButton {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .customButton:hover {
+    background-color: #e0e0e0;
+  }

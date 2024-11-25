@@ -1,0 +1,41 @@
+
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    position: absolute;
+    top: 60px;  /* Adjust this value to the height of your header */
+    left: 0;         
+    height: calc(100vh - 60px); /* Adjust height to account for the header */
+    width: 250px;    
+    background-color: #f4f4f4; 
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+}
+
+.right {
+    margin-left: 250px;  /* Ensure this value matches the width of the .left box */
+    flex-grow: 1;
+    min-height: 100vh;
+    padding: 26px 16px 0;
+    background: #f0f0f0;
+}
+
+
+.tableRowHover {
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+
+.tableRowHover:hover {
+    background-color: #f0f0f0;
+    cursor: pointer; 
+}
+
+
+
+
+

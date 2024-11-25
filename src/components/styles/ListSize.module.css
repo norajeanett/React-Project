@@ -1,0 +1,12 @@
+.Size{
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.Dropdown{
+	margin-bottom: 10px;
+	margin-right: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}

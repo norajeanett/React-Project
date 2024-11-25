@@ -1,0 +1,15 @@
+.card {
+    margin-top: 60px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.exit{
+	float: right;
+	margin: 10px;
+}
+
+.inHeader{
+	float: left;
+	margin-left: 10px;
+}

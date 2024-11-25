@@ -1,0 +1,29 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    /* Center vertically */
+	flex-direction: column;
+	justify-content: center;
+}
+
+.searchInput {
+    width: 50%; 
+    max-width: 600px; 
+    padding: 16px; 
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.formItem {
+	font-weight: bold;
+	width: 50%;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+}

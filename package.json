@@ -1,0 +1,23 @@
+{
+  "name": "Group6",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "d2-app-scripts start",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^11.7.1"
+  },
+  "dependencies": {
+    "@dhis2/app-runtime": "^3.11.0",
+    "@dhis2/ui": "^9.11.4",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "use-debounce": "^10.0.4"
+  }
+}

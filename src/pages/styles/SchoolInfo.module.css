@@ -1,0 +1,13 @@
+.inspectionData {
+    display: flex;
+    flex-direction: row;
+}
+
+.inspectionCard {
+    width: 100%;
+}
+
+.inspectionButton{
+	margin-bottom: 10px;
+	float: right;
+}
